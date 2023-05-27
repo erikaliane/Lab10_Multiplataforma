@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab10.MainPage">
+
+    
+
+    <StackLayout>
+        <StackLayout Padding="30" >
+      
+
+            <Button x:Name="Item1" Text="ViewToViewDemo" CornerRadius ="40" BackgroundColor   ="DodgerBlue" Margin="40" TextColor="White"/>
+            <Button x:Name="Item2" Text="BindingModeDemo" CornerRadius ="40" BackgroundColor   ="DodgerBlue" Margin="40" TextColor="White"/>
+            <Button x:Name="Item3" Text="ListViewDemo" CornerRadius ="40" BackgroundColor   ="DodgerBlue" Margin="40" TextColor="White"/>
+            <Button x:Name="Item4" Text="PickerDemo" CornerRadius ="40" BackgroundColor   ="DodgerBlue" Margin="40" TextColor="White"/>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
